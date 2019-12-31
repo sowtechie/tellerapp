@@ -1,0 +1,30 @@
+.header-container {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+  padding: 1px;
+  background-color:#30e0c4;
+  box-shadow: 2px 2px grey;
+}
+
+h1 {
+    margin: 0 0;
+}
+
+.section-container {
+  display:flex;
+  justify-content:space-between;
+  flex-direction: column;
+  margin-left:10px;
+  margin-right:10px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+  }
+
+}
+.underline:hover{
+  text-decoration: underline;
+}

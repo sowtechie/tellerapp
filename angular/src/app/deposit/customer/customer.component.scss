@@ -1,0 +1,9 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    border-style:solid  ;
+  }
+  
+  .example-container > * {
+    width: 80;
+  }
