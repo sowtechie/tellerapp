@@ -11,4 +11,4 @@ constructor(private httpClient: HttpClient) {}
   return this.httpClient.post('http://localhost:8080/newCustomer',usersData)
  }
 
-} 
+}  

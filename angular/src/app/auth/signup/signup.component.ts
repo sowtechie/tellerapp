@@ -18,7 +18,6 @@ export class SignupComponent implements OnInit {
   register(registersData){
     this.registerService.register(this.customer).subscribe(backendResponse => {
     })
-
   }
 
 }

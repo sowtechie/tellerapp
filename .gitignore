@@ -1,1 +1,3 @@
-./ncr-be/target
+ncr-be/target
+
+angular/node_modules
